@@ -98,7 +98,7 @@ def on_message(message):
         msg = 'https://www.youtube.com/watch?v=WnPjqt6vEzA'.format(message)
         yield from client.send_message(message.channel, msg)
     elif message.content.startswith('!trailer'):
-        msg = 'https://www.youtube.com/watch?v=GDuOSJeZfTY'.format(message)
+        msg = 'https://youtu.be/z7-LxU4SqCw'.format(message)
         yield from client.send_message(message.channel, msg)
 
 @client.event
